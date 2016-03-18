@@ -9,7 +9,7 @@ Celery doesn't usually directly work cassandra so you need to create and return 
   
           
   
-###                                                HOW TO USE  
+###                                                 HOW TO USE  
 --- 
 
 1. Clone the project or download the zip. Clone and download my other project         https://github.com/siddver007/project_django_allauth_slate_razorpay.  
@@ -19,8 +19,8 @@ Celery doesn't usually directly work cassandra so you need to create and return 
 5. Now run command:-  
    a. python manage.py sync_cassandra    
 6. Now run the app by typing in "python manage.py runserver 0.0.0.0:8001"
-7. Try posting data in JSON format to http://localhost:8001/post/. Data should have the format   {"token":"{{YOUR_AUTH_TOKEN}}","data":"{{ANY_UNICODE_STRING}}"}.  
-NOTE: You'll to verify your email which gets generated when you register the user using "project_django_allauth_slate_razorpay" project. The verification link is either sent to the provided e-mail or if SMTP settings are not specified then the e-mail gets generated in the CMD or Terminal. You could use any third party HTTP request client like "Postman" etc.  
+7. Try posting data in JSON format to http://localhost:8001/post/. Data should have the format     {"token":"{{YOUR_AUTH_TOKEN}}","data":"{{ANY_UNICODE_STRING}}"}.  
+##### NOTE: You'll to verify your email which gets generated when you register the user using "project_django_allauth_slate_razorpay" project. The verification link is either sent to the provided e-mail or if SMTP settings are not specified then the e-mail gets generated in the CMD or Terminal. You could use any third party HTTP request client like "Postman" etc.  
 
 
 ## NOTE: There might be some issues so, you can open an issue on this repository if you want to ask something from me/ need my help. 
